@@ -1,16 +1,13 @@
 
 class Stack :
     def __init__(self):
-        self.symbol = []
+        self.stack: str = ''
 
     def is_empty(self):
-        return len(self.symbol) == 0
+        return len(self.stack) == 0
 
-    def push(self, stacksymbol):
-        self.symbol.append(stacksymbol)
+    def push(self, str):
+        self.stack += str
 
     def pop(self):
-        if not self.is_empty():
-            return self.symbol.pop()
-        else:
-            print("Stack is empty")
+        self.stack = self.stack[::-1]
