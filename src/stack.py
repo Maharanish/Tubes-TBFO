@@ -11,3 +11,4 @@ class Stack :
 
     def pop(self):
         self.stack = self.stack[::-1]
+        
