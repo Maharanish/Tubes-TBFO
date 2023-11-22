@@ -44,6 +44,12 @@ print("Accepting States:", accepting_states)
 print("cek2")
 
 # Process input
-input_string = input()
+# Specify the path to your HTML file
+html_file_path = input()
+
+# Read the HTML file
+with open(html_file_path, 'r') as file:
+    lines = file.readlines()
+input_string = input(lines)
 result = pda.process(input_string)
 print("result:", result)
