@@ -26,7 +26,7 @@ print("mulai")
 #start_stack_symbol = '#'
 #accepting_states = {'r'}
 
-file_path = "C:\\Users\\Shabrina Maharani\\Documents\\3rd sem\\TUBES\\tbfoo\\Tubes-TBFO\\PDA_rules\\PDA.txt" 
+file_path = input()
 state, alphabet, transition, start_state, start_stack_symbol, stack_symbol, accepting_states = parse_pda_file(file_path)
 
     # Create an instance of PDA
@@ -44,6 +44,6 @@ print("Accepting States:", accepting_states)
 print("cek2")
 
 # Process input
-input_string = "0011"
+input_string = input()
 result = pda.process(input_string)
 print("result:", result)
