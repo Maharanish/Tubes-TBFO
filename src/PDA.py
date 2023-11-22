@@ -20,11 +20,15 @@ class PDA:
         print("Awal Transition: Stack =", self.stack.get_items(), "Top =", self.stack.top())
 
         for symbol in input_list:
+            if symbol == '\n':
+                symbol = '!'
+            if symbol == ' ':
+                symbol = '!'
             print("Current State:", statebaru)
             print("Current Symbol:", symbol)
             if statebaru == '':
                 return False
-
+            
             found_transition = False
             print("Before Transition: Stack =", self.stack.get_items(), "Top =", topstackbaru)
 
@@ -43,7 +47,7 @@ class PDA:
                 found_transition = True
                 top_stack = self.stack.top()
                 print(top_stack)
-                if push_stack == 'e':
+                if push_stack == '$':
                     self.stack.pop()  # Pop the top of the stack if the stack operation is not empty
                     print("Before Transition: Stack =", self.stack.get_items(), "Top =", topstackbaru)
                     top_stack = self.stack.top()

@@ -27,7 +27,9 @@ print("mulai")
 #accepting_states = {'r'}
 
 file_path = input()
-state, alphabet, transition, start_state, start_stack_symbol, stack_symbol, accepting_states = parse_pda_file(file_path)
+with open(file_path, 'r', encoding='utf-8') as file:
+    # your code here
+    state, alphabet, transition, start_state, start_stack_symbol, stack_symbol, accepting_states = parse_pda_file(file_path)
 
     # Create an instance of PDA
 pda = PDA(state, alphabet, transition, start_state, start_stack_symbol, stack_symbol, accepting_states)
@@ -45,11 +47,17 @@ print("cek2")
 
 # Process input
 # Specify the path to your HTML file
-html_file_path = input()
+html_file_path = input("")
 
-# Read the HTML file
-with open(html_file_path, 'r') as file:
-    lines = file.readlines()
-input_string = input(lines)
-result = pda.process(input_string)
+try:
+    with open(html_file_path, 'r', encoding='utf-8') as file:
+        html_content = file.read()
+except FileNotFoundError:
+    print(f"Error: File not found at {html_file_path}")
+    exit(1)
+except UnicodeDecodeError as e:
+    print(f"Error decoding file: {e}")
+    exit(1)
+
+result = pda.process(html_content)
 print("result:", result)
