@@ -35,19 +35,15 @@ class PDA:
                 if symbol in transition_dict:
                     if self.stack.top() in transition_dict[symbol]:
                         next_state, push_stack = transition_dict[symbol][self.stack.top()]
-                elif '' in transition_dict:
-                    #top_stack, next_state, push_stack = transition_dict['']
-                    if self.stack.top() in transition_dict['']:
-                        next_state, push_stack = transition_dict[symbol][self.stack.top()]
+                    else:
+                        return False
                 else:
                     return False
-                
-                
 
                 found_transition = True
                 top_stack = self.stack.top()
                 print(top_stack)
-                if push_stack == '':
+                if push_stack == 'e':
                     self.stack.pop()  # Pop the top of the stack if the stack operation is not empty
                     print("Before Transition: Stack =", self.stack.get_items(), "Top =", topstackbaru)
                     top_stack = self.stack.top()
