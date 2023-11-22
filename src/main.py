@@ -1,38 +1,49 @@
 from PDA import PDA
+from parser import parse_pda_file
 
 # Example usage:
 print("mulai")
-state_set = {'p', 'q', 'r'}
-alphabet_set = {'0', '1'}
-transition_rules = {
-    'p': {
-        '0': {'#':('p','#0'),
-              '0':('p','00'),
-            },
-        '1': {'0':('q', ''),},
-    },
-    'q': {
-        '1': {'0':( 'q', ''),},
-        '!': {'#': ('r', ''),},
-    },
-}
+#state_set = {'p', 'q', 'r'}
+#alphabet_set = {'0', '1'}
+#transition_rules = {
+#    'p': {
+#        '0': {'#':('p','#0'),
+#              '0':('p','00'),
+#            },
+#        '1': {'0':('q', ''),},
+#        '!': {'#': ('r', ''),},
+#    },
+#    'q': {
+#       '1': {'0':( 'q', ''),},
+#        '!': {'#': ('r', ''),},
+#    },
+#}
 
-#('#', 'p', '#0'), ('0', 'p', '00')
 
-start_state = 'p'
-symbol_stack = {'#', '0', '1'}
-start_stack_symbol = '#'
-accepting_states = {'r'}
 
-print("cek1")
+#start_state = 'p'
+#symbol_stack = {'#', '0', '1'}
+#start_stack_symbol = '#'
+#accepting_states = {'r'}
 
-# Pass accepting_states as an argument when creating the PDA instance
-pda = PDA(state=state_set, alphabet=alphabet_set, transition = transition_rules, startState=start_state, startStackSymbol=start_stack_symbol, symbol=symbol_stack, accepting_states=accepting_states)
-print(pda.state)
+file_path = "C:\\Users\\Shabrina Maharani\\Documents\\3rd sem\\TUBES\\tbfoo\\Tubes-TBFO\\PDA_rules\\PDA.txt" 
+state, alphabet, transition, start_state, start_stack_symbol, stack_symbol, accepting_states = parse_pda_file(file_path)
+
+    # Create an instance of PDA
+pda = PDA(state, alphabet, transition, start_state, start_stack_symbol, stack_symbol, accepting_states)
+
+    # Example: Print the parsed information
+print("State:", state)
+print("Alphabet:", alphabet)
+print("Transition:", transition)
+print("Start State:", start_state)
+print("Start Stack Symbol:", start_stack_symbol)
+print("Stack Symbol:", stack_symbol)
+print("Accepting States:", accepting_states)
 
 print("cek2")
 
 # Process input
-input_string = ['0','1','!']
+input_string = "0011"
 result = pda.process(input_string)
 print("result:", result)
