@@ -1,5 +1,5 @@
 from PDA import PDA
-from parser import parse_pda_file
+from myparser import parse_pda_file
 
 # Example usage:
 print("mulai")

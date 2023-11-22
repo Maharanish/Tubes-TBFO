@@ -4,7 +4,6 @@ def parse_pda_file(file_path):
     with open(file_path, 'r') as file:
         lines = file.readlines()
 
-        # Parse state, alphabet, stackSymbol, startState, startStackSymbol, and accepting_states
         state = lines[0].split()
         alphabet = lines[1].split()
         stack_symbol = lines[2].split()
@@ -12,10 +11,8 @@ def parse_pda_file(file_path):
         start_stack_symbol = lines[4].strip()
         accepting_states = lines[5].split()
 
-        # Initialize the transition dictionary
         transition = {}
 
-        # Loop through transition rules starting from line 8
         for line in lines[7:]:
             parts = line.split()
             current_state, input_symbol, top_stack, next_state, push_stack = parts

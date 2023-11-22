@@ -1,0 +1,276 @@
+< html head title title2 body tagbody body2
+< h t m l > e a d b c f g h i j k n o p q r s u v w x y z A B C D E F G H I J K L M N O P Q R S T U V W X Y Z 1 2 3 4 5 6 7 8 9 0 ` ~ ! @ # $ % ^ & * ( ) - _ + = [ ] { } ; : ' " \ | < , . > / ?
+# h t m l > e a d G 
+<
+#
+end
+E
+< < # html #>lmth
+html h h html $
+html t t html $ 
+html m m html $
+html l l html $
+html > > html $
+html < # head #>daeh
+head h h head $ 
+head e e head $
+head a a head $ 
+head d d head $ 
+head > > head $ 
+head < # temp #
+temp t # title #>eltit
+temp l # link #"link
+temp s # script 
+title t t title $
+title i i title $
+title l l title $
+title e e title $
+title > > G tG
+G a G G $
+G a # G #G
+G b G G $
+G b # G #G
+G c G G $
+G c # G #G
+G d G G $
+G d # G #G
+G e G G $
+G e # G #G
+G f G G $
+G f # G #G
+G g G G $
+G g # G #G
+G h G G $
+G h # G #G
+G i G G $
+G i # G #G
+G j G G $
+G j # G #G
+G k G G $
+G k # G #G
+G l G G $
+G l # G #G
+G m G G $
+G m # G #G
+G n G G $
+G n # G #G
+G o G G $
+G o # G #G
+G p G G $
+G p # G #G
+G q G G $
+G q # G #G
+G r G G $
+G r # G #G
+G s G G $
+G s # G #G
+G t G G $
+G t # G #G
+G u G G $
+G u # G #G
+G v G G $
+G v # G #G
+G w G G $
+G w # G #G
+G x G G $
+G x # G #G
+G y G G $
+G y # G #G
+G z G G $
+G z # G #G
+G 1 G G $
+G 1 # G #G
+G 2 G G $
+G 2 # G #G
+G 3 G G $
+G 3 # G #G
+G 4 G G $
+G 4 # G #G
+G 5 G G $
+G 5 # G #G
+G 6 G G $
+G 6 # G #G
+G 7 G G $
+G 7 # G #G
+G 8 G G $
+G 8 # G #G
+G 9 G G $
+G 9 # G #G
+G A G G $
+G A # G #G
+G B G G $
+G B # G #G
+G C G G $
+G C # G #G
+G D G G $
+G D # G #G
+G E G G $
+G E # G #G
+G F G G $
+G F # G #G
+G G G G $
+G G # G #G
+G H G G $
+G H # G #G
+G I G G $
+G I # G #G
+G J G G $
+G J # G #G
+G K G G $
+G K # G #G
+G L G G $
+G L # G #G
+G M G G $
+G M # G #G
+G N G G $
+G N # G #G
+G O G G $
+G O # G #G
+G P G G $
+G P # G #G
+G Q G G $
+G Q # G #G
+G R G G $
+G R # G #G
+G S G G $
+G S # G #G
+G T G G $
+G T # G #G
+G U G G $
+G U # G #G
+G V G G $
+G V # G #G
+G W G G $
+G W # G #G
+G X G G $
+G X # G #G
+G Y G G $
+G Y # G #G
+G Z G G $
+G Z # G #G
+G ` G G $
+G ` # G #G
+G ! G G $
+G ! # G #G
+G @ G G $
+G @ # G #G
+G # G G $
+G # # G #G
+G $ G G $
+G $ # G #G
+G % G G $
+G % # G #G
+G ^ G G $
+G ^ # G #G
+G & G G $
+G & # G #G
+G * G G $
+G * # G #G
+G ( G G $
+G ( # G #G
+G ) G G $
+G ) # G #G
+G ~ G G $
+G ~ # G #G
+G - G G $
+G - # G #G
+G _ G G $
+G _ # G #G
+G = G G $
+G = # G #G
+G + G G $
+G + # G #G
+G { G G $
+G { # G #G
+G } G G $
+G } # G #G
+G [ G G $
+G [ # G #G
+G ] G G $
+G ] # G #G
+G | G G $
+G | # G #G
+G \ G G $
+G \ # G #G
+G : G G $
+G : # G #G
+G ; G G $
+G ; # G #G
+G ' G G $
+G ' # G #G
+G " G G $
+G " # G #G
+G < G G $ 
+G < # G #G
+G > G G $
+G > # G #G
+G ? G G $
+G ? # G #G
+G / G G $
+G / # G #G
+G . G G $
+G . # G #G
+G , G G $
+G , # G #G
+
+G < t title2 >eltit/
+title2 t t title2 $
+title2 i i title2 $
+title2 l l title2 $
+title2 e e title2 $
+title2 > > title2 $
+
+title2 < # head2 #>daeh/
+head2 / / head2 $
+head2 h h head2 $
+head2 e e head2 $
+head2 a a head2 $
+head2 d d head2 $
+head2 > > head2 $
+
+
+head2 < # body #>ydob
+body b b body $
+body o o body $
+body d d body $
+body y y body $
+body > > body $
+
+
+
+body < # tagbody #o
+
+tagbody h o h $
+h 1 # h1 #>1h
+h1 h h $
+h1 1 1 $
+h1 > > G G
+G < G h1kedua /
+G < # h1kedua #>eltit/
+
+
+tagbody p o p $
+
+p > # G #
+
+# --- G ke p2 ---
+
+
+p2 / / p2 $
+p2 p p p2 $
+p2 > > p2 $
+p2 < # tagbody #o
+
+
+
+
+
+
+<head>
+<script src=" ">
+</script>
+
+</head>
+
+
+<title>Halooo</h1>
