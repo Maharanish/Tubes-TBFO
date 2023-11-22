@@ -1,0 +1,13 @@
+p q r
+0 1
+# 0 1
+p
+#
+r
+E
+p 0 # p #0
+p 0 0 p 00
+p 1 0 q e
+p e # r e
+q 1 0 q e 
+q e # r e
