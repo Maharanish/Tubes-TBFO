@@ -26,8 +26,8 @@ class PDA:
                 line+=1
             if symbol == ' ':
                 symbol = '|'
-            print("Current State:", statebaru)
-            print("Current Symbol:", symbol)
+            #print("Current State:", statebaru)
+            #print("Current Symbol:", symbol)
             if statebaru == '':
                 return False
             
@@ -61,7 +61,7 @@ class PDA:
                 
                 statebaru = next_state
                 
-                print("After Transition: Stack =", self.stack.get_items(), "Top =", self.stack.top())
+                #print("After Transition: Stack =", self.stack.get_items(), "Top =", self.stack.top())
                 
 
         # Check if the final state is an accepting state and the stack is empty
