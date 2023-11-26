@@ -1,5 +1,3 @@
-# Tubes-TBFO
-
 # HTML PARSER WITH PDA
 
 ## How to Run
@@ -25,6 +23,3 @@
      - Yosef Rafael Joshua - 13522133
      - Shabrina Maharani - 13522134
      - Auralea Alvinia Syaikha - 13522148
-
-## Additional Notes
-- Include any additional information or special instructions if needed.
